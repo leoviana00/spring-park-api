@@ -1,0 +1,13 @@
+## Requisitos / Usuários
+- O usuário deverá ter um e-mail, o qual será usado como username (deve ser único)
+- O usuário deverá ter uma senha de 6 caracteres
+- O usuário deverá ter um perfil de administrador ou cliente.
+- O usuário será criado sem a necessidade de autenticação.
+- O usuário poderá ser localizado pelo identificador gerado.
+    - O administrador, quando autenticado, poderá recuperar qualquer usuário pelo id.
+    - O cliente, quando autenticado, poderá somente recuperar seus próprios dados de usuário.
+- O usuário poderá alterar a senha
+    - Apenas quando estiver autenticado e somente o próprio usuário terá essa autorização.
+- O administrador poderá listar todos os usuários quando estiver autenticado.
+- Documentar todos os recursos criados.
+- Realizar testes de integração do tipo ponto a ponto (end-to-end) dos recursos criados.
