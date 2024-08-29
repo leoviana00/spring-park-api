@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-arquitetura">Arquitetura</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-roadmap">Roadmap</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -19,10 +20,31 @@
 
 ## 💡 Projeto
 
-Desenvolvimento de um modelo de api para gerenciamento de um estacionamento de veículos
+```
+O objetivo será desenvolver um sistema de gerenciamento para estacionamento. Após levantamento
+de requisitos junto ao cliente, listaremos as especificações a serem desenvolvidas pela equipe de
+back-end.
+```
 
-- Definição dos requisitos:
-`todo`
+```
+Importante salientar que o sistema será uma API Rest com autenticação por Json Web
+Token (JWT).
+```
+
+```
+O sistema deverá possuir uma documentação dos recursos disponíveis pela API, para
+servir de apoio a equipe de front-end.
+```
+
+## ✅ Requisitos
+
+1. [ ] [Requisitos e Configurações](./doc/Requisitos-configuracoes.md)
+2. [ ] [Requisitos / Usuários](./doc/Requisitos-usuarios.md)
+3. [ ] [Requisitos / Autenticação](./doc/Requisitos-autenticacao.md)
+4. [ ] [Requisitos / Clientes](./doc/Requisitos-clientes.md)
+5. [ ] [Requisitos / Vagas](./doc/Requisitos-vagas.md)
+6. [ ] [Requisitos / Estacionamentos](./doc/Requisitos-estacionamentos.md)
+
 
 ## 💡 Arquitetura
 `todo`
