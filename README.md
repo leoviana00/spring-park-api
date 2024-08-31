@@ -20,6 +20,8 @@
 
 ## 💡 Projeto
 
+- REST API com Spring Boot 3, Spring Security, Spring Data JPA, JWT, Swagger, Testes end2end, DTO
+
 ```
 O objetivo será desenvolver um sistema de gerenciamento para estacionamento. Após levantamento
 de requisitos junto ao cliente, listaremos as especificações a serem desenvolvidas pela equipe de
@@ -47,7 +49,10 @@ servir de apoio a equipe de front-end.
 
 
 ## 💡 Arquitetura
-`todo`
+
+- [Arquitetura REST](./doc/api-rest-arquitetura.md)
+- [API REST - Fundamentos](./doc/api-rest-fundamentos.md)
+- [API REST - Boas práticas](./doc/api-rest-boaspraticas.md)
 
 ## ✨ Tecnologias
 
@@ -75,3 +80,13 @@ servir de apoio a equipe de front-end.
 - Configuração de Auditoria com Spring-JPA-Auditing
 
 ## 📄 Referências
+
+- [O que é ser idempotente em REST?](https://www.infoq.com/br/news/2013/05/idempotent/)
+
+- [HTTP response status codes](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods)
+
+- [Springboot](https://spring.io/guides/gs/spring-boot)
+
+- [Spring Initializr](https://start.spring.io/)
+
+- [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
