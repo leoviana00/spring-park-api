@@ -53,6 +53,7 @@ servir de apoio a equipe de front-end.
 - [Arquitetura REST](./doc/api-rest-arquitetura.md)
 - [API REST - Fundamentos](./doc/api-rest-fundamentos.md)
 - [API REST - Boas práticas](./doc/api-rest-boaspraticas.md)
+- [Padrão de Projetos DTO](./doc/padrao-projeto-dto.md)
 
 ## ✨ Tecnologias
 
@@ -90,3 +91,7 @@ servir de apoio a equipe de front-end.
 - [Spring Initializr](https://start.spring.io/)
 
 - [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+
+- [Equals Method in Java: Best Practices](https://codegym.cc/groups/posts/264-equals-and-hashcode-methods-best-practices)
+
+- [Entendendo o equals e hashCode](https://blog.algaworks.com/entendendo-o-equals-e-hashcode/)

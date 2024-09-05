@@ -1,0 +1,24 @@
+version: '3.9'
+networks:
+  park-network:
+    driver: bridge
+    name: park-network
+    
+services:
+  auth-db:
+    container_name: park-db
+    restart: always
+    image: postgres
+    networks:
+      - park-network
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_USER: admin
+      POSTGRES_DB: park-db
+    volumes:
+      - data_db:/var/lib/postgresql/data
+
+volumes:
+  data_db: {}
