@@ -1,11 +1,9 @@
 package com.viana.sprint_park_api.web.dto.mapper;
 
-
+import java.util.List;
+import java.util.stream.Collectors;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.PropertyMap;
-
-
-
 import com.viana.sprint_park_api.entity.Usuario;
 import com.viana.sprint_park_api.web.dto.UsuarioCreateDto;
 import com.viana.sprint_park_api.web.dto.UsuarioResponseDto;
@@ -28,5 +26,9 @@ public class UsuarioMapper {
         ModelMapper mapper = new ModelMapper();
         mapper.addMappings(props);
         return mapper.map(usuario, UsuarioResponseDto.class);
+    }
+
+    public static List<UsuarioResponseDto> toListDto(List<Usuario> usuarios) {
+        return usuarios.stream().map(user -> toDto(user)).collect(Collectors.toList());
     }
 }
