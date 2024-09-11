@@ -54,6 +54,7 @@ servir de apoio a equipe de front-end.
 - [API REST - Fundamentos](./doc/api-rest-fundamentos.md)
 - [API REST - Boas práticas](./doc/api-rest-boaspraticas.md)
 - [Padrão de Projetos DTO](./doc/padrao-projeto-dto.md)
+- [Validação e Jakarta Bean Validation](./doc/validacao-jakarta-bean-validation.md)
 
 ## ✨ Tecnologias
 
@@ -95,3 +96,5 @@ servir de apoio a equipe de front-end.
 - [Equals Method in Java: Best Practices](https://codegym.cc/groups/posts/264-equals-and-hashcode-methods-best-practices)
 
 - [Entendendo o equals e hashCode](https://blog.algaworks.com/entendendo-o-equals-e-hashcode/)
+
+- [Jakarta Bean Validation](https://jakarta.ee/specifications/bean-validation/3.0/jakarta-bean-validation-spec-3.0.html)
