@@ -1,0 +1,39 @@
+version: '3.9'
+networks:
+  park-network:
+    driver: bridge
+    name: park-network
+    
+services:
+  park-db:
+    container_name: park-db
+    restart: always
+    image: postgres
+    networks:
+      - park-network
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_USER: admin
+      POSTGRES_DB: park-db
+    volumes:
+      - data_db:/var/lib/postgresql/data
+
+  pg-admin:
+    container_name: pgadmin4
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "leoviana00@gmail.com.br"
+      PGADMIN_DEFAULT_PASSWORD: "123456"
+    ports:
+      - "16543:80"
+    depends_on:
+      - park-db
+    networks:
+      - park-network
+
+
+volumes:
+  data_db: {}

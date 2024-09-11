@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-arquitetura">Arquitetura</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-roadmap">Roadmap</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -19,13 +20,41 @@
 
 ## 💡 Projeto
 
-Desenvolvimento de um modelo de api para gerenciamento de um estacionamento de veículos
+- REST API com Spring Boot 3, Spring Security, Spring Data JPA, JWT, Swagger, Testes end2end, DTO
 
-- Definição dos requisitos:
-`todo`
+```
+O objetivo será desenvolver um sistema de gerenciamento para estacionamento. Após levantamento
+de requisitos junto ao cliente, listaremos as especificações a serem desenvolvidas pela equipe de
+back-end.
+```
+
+```
+Importante salientar que o sistema será uma API Rest com autenticação por Json Web
+Token (JWT).
+```
+
+```
+O sistema deverá possuir uma documentação dos recursos disponíveis pela API, para
+servir de apoio a equipe de front-end.
+```
+
+## ✅ Requisitos
+
+1. [ ] [Requisitos e Configurações](./doc/Requisitos-configuracoes.md)
+2. [ ] [Requisitos / Usuários](./doc/Requisitos-usuarios.md)
+3. [ ] [Requisitos / Autenticação](./doc/Requisitos-autenticacao.md)
+4. [ ] [Requisitos / Clientes](./doc/Requisitos-clientes.md)
+5. [ ] [Requisitos / Vagas](./doc/Requisitos-vagas.md)
+6. [ ] [Requisitos / Estacionamentos](./doc/Requisitos-estacionamentos.md)
+
 
 ## 💡 Arquitetura
-`todo`
+
+- [Arquitetura REST](./doc/api-rest-arquitetura.md)
+- [API REST - Fundamentos](./doc/api-rest-fundamentos.md)
+- [API REST - Boas práticas](./doc/api-rest-boaspraticas.md)
+- [Padrão de Projetos DTO](./doc/padrao-projeto-dto.md)
+- [Validação e Jakarta Bean Validation](./doc/validacao-jakarta-bean-validation.md)
 
 ## ✨ Tecnologias
 
@@ -53,3 +82,19 @@ Desenvolvimento de um modelo de api para gerenciamento de um estacionamento de v
 - Configuração de Auditoria com Spring-JPA-Auditing
 
 ## 📄 Referências
+
+- [O que é ser idempotente em REST?](https://www.infoq.com/br/news/2013/05/idempotent/)
+
+- [HTTP response status codes](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods)
+
+- [Springboot](https://spring.io/guides/gs/spring-boot)
+
+- [Spring Initializr](https://start.spring.io/)
+
+- [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+
+- [Equals Method in Java: Best Practices](https://codegym.cc/groups/posts/264-equals-and-hashcode-methods-best-practices)
+
+- [Entendendo o equals e hashCode](https://blog.algaworks.com/entendendo-o-equals-e-hashcode/)
+
+- [Jakarta Bean Validation](https://jakarta.ee/specifications/bean-validation/3.0/jakarta-bean-validation-spec-3.0.html)
