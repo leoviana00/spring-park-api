@@ -55,6 +55,8 @@ servir de apoio a equipe de front-end.
 - [API REST - Boas práticas](./doc/api-rest-boaspraticas.md)
 - [Padrão de Projetos DTO](./doc/padrao-projeto-dto.md)
 - [Validação e Jakarta Bean Validation](./doc/validacao-jakarta-bean-validation.md)
+- [Camada de testes](./doc/testes.md)
+- [Sistema de Autenticação](./doc/jwt-token.md)
 
 ## ✨ Tecnologias
 
@@ -98,3 +100,9 @@ servir de apoio a equipe de front-end.
 - [Entendendo o equals e hashCode](https://blog.algaworks.com/entendendo-o-equals-e-hashcode/)
 
 - [Jakarta Bean Validation](https://jakarta.ee/specifications/bean-validation/3.0/jakarta-bean-validation-spec-3.0.html)
+
+- [SpringdDoc API 3](https://springdoc.org/)
+
+- [Introcução ao JSON Web Tokens](https://jwt.io/)
+
+- [Documentação biblioteca io.jsonwebtoken](https://github.com/jwtk/jjwt)
