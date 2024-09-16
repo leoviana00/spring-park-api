@@ -2,7 +2,7 @@
 name: Feature request
 about: Sugerir uma ideia para este projeto.
 title: "[Sugestão]"
-labels: bug
+labels: enhancement
 assignees: ''
 
 ---
