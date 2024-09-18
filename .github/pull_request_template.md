@@ -1,5 +1,3 @@
-[ID-TICKET/TASK] - (http://url.do.jira-ou-boards.com)
-
 ## Descrição
 
 Descrição da alteração que está sendo proposta.
@@ -17,11 +15,11 @@ Descrição da alteração que está sendo proposta.
 - [ ] Minhas alterações não introduzem novos problemas
 - [ ] Meu pr está de acordo com o processo de git semântico documentado em: [Guia Git semântico](https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/)
 
-### Comentários adicionais
+## Comentários adicionais
 
 Adicione aqui quaisquer comentários ou informações adicionais relevantes para o revisor.
 
-### Screenshots
+## Screenshots
 
 | Before | After |
 | ------ | ----- |
